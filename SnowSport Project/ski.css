@@ -1,0 +1,174 @@
+
+body { 
+    background-color: #051a35;
+    
+}
+
+h1.title{
+    background-image: url("skipic.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 145px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'helvetica neue',
+                helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+}
+
+div.left{
+    float: left; width: 47.5%; 
+    background-color:rgb(234, 233, 233);
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: solid 0.1px grey;
+}
+
+div.rest{
+    overflow: hidden;
+    background-color:rgb(234, 233, 233);
+    margin-right: 2%;
+    margin-left:0px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: solid;
+    border-width: 0.1px;
+    border: solid 0.1px grey;
+
+}
+
+h3{
+    text-align: center;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-bottom: solid 0.1px grey;
+    color: #00538f;
+    font-size: larger;
+}
+
+h2{
+    text-align: center;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+    color: #889299;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+h2.post{
+    text-align: center;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+    color: #889299;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+p.cards{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+}
+
+p.difficulty{
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin: 2px;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+}
+
+ul{
+    text-align: center;
+    list-style: inside;
+}
+li{
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+}
+
+img{
+    border-radius: 5%;
+    max-width: 100%;
+    width: auto;
+}
+img.snowboard{
+    border-radius: 5%;
+    margin-bottom: 4.5%;
+    width: auto;
+}
+
+th { font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+    color: White;
+    background-color: #003D6A;
+    padding: 5px; 
+    font-size: larger;
+}
+
+table{
+    margin-left: 5%;
+    margin-right: 5;
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+tr{
+    border: solid 1px black;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+}
+td{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    font-size: larger;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+}
+
+
+
+div.row{
+    display: flex;
+}
+
+div.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+img.logo{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+}
+
+p.levels{
+    text-align: center;
+    color: white;
+    font-family: 'helvetica neue',
+    helvetica, arial, sans-serif;
+    font-size: large;
+}
+
