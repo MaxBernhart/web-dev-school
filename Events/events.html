@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="events.css" rel="stylesheet" type="text/css"/>
+        <title>Events</title>
+    </head>
+
+    <body>
+        <div id = "load">
+            <p>Loading data...</p>
+        </div>
+
+        <div id = "list">
+            <select name="select" id="select">
+                
+            </select>
+            <button class="btn btn-primary" id="selectButton">Select Event</button>
+        </div>
+
+        <div id = "event">
+            <h2 id = 'head'></h2>
+            <h3 id = 'time'></h3>
+            <h3 id = 'place'></h3>
+            <p id = 'desc'></p>
+
+            <h3>Registered Participants</h3>
+            <ul id = "participants">
+
+            </ul>
+
+            <label for="name">Name:</label>
+            <input type="text" class = "form-control" id = "name">
+            <br>
+
+            <label for="email">Email Adress:</label>
+            <input type="text" class = "form-control" id = "email">
+            <br>
+
+            <button class="btn btn-primary" id="signup">Sign Up</button>
+        </div>
+
+        <div id = "confirm">
+            <h2>Thank you!</h2>
+            <p>Your registration has been submitted.</p>
+        </div>
+
+
+        <script src="events.js"></script>
+    </body>
+</html>
